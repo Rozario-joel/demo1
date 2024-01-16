@@ -1,0 +1,34 @@
+.Main {
+  /* border: 1px solid black; */
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: aliceblue;
+}
+
+.Main_div {
+  /* border: 1px solid black; */
+
+  height: fit-content;
+  width: fit-content;
+  display: grid;
+  grid-template-columns: auto auto auto;
+  grid-gap: 20px;
+}
+
+.Image {
+  border: 1px solid black;
+  display: grid;
+  justify-content: center;
+  align-self: center;
+}
+
+.Card {
+  border: 1px solid black;
+  border-radius: 15px 50px 30px;
+  height: 150px;
+  width: 150px;
+  display: grid;
+  justify-content: center;
+  align-self: center;
+}

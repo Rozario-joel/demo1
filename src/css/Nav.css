@@ -1,0 +1,45 @@
+.Main_nav {
+  position: sticky;
+  /* border: 1px solid black; */
+  height: 100%;
+  width: 100%;
+  display: grid;
+  grid-template-columns: 33% 33% 33%;
+  background-color: aliceblue;
+}
+.Comp_nav {
+  /* border: 1px solid black; */
+  display: grid;
+  grid-template-columns: 35% 50%;
+  grid-row: 5px;
+}
+
+.Sec_nav {
+  /* border: 1px solid black; */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.Sec_nav ul {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  justify-content: space-around;
+}
+
+.Icon_nav {
+  /* border: 1px solid black; */
+  width: 100%;
+  display: grid;
+  grid-template-columns: auto auto auto auto;
+  grid: column gap 5px;
+}
+
+.Icon_cnt {
+  /* border: 1px solid black; */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
